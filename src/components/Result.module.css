@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+
+.resultContainer{
+    height: 45vh;
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 35vw;
+    background-color: whitesmoke;
+}
+
+.result{
+    margin-top: 8vh;
+    text-align: center;
+    font-family: cursive;
+    font-size: 4vw;
+    
+
+}
+
+.scorePercentage{
+    text-align: center;
+}
+
+.correctQuestion{
+    text-align: center;
+}
+
+.resetBTN{
+    margin-top: 5vh;
+    font-size: 2vw;
+    border-radius: 8px;
+    background-color: rgb(202, 142, 63);
+    height: 8vh;
+    width: 10vw;
+    position: relative;
+    left: 43vw;
+    
+}

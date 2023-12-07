@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(242, 238, 232);
+    
+}
+.appName{
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 0px;
+    font-family: cursive;
+    font-style: italic;
+    margin-bottom: 0px;
+
+}
+
+.slogen{
+    text-align: center;
+    font-size: 2vw;
+    font-family: cursive;
+    margin-top: 1vh;
+}
+
+.currentQuestion{
+    text-align: center;
+    position: relative;
+    top: 3vh;
+    font-size: 3vw;
+}
+
+.questionBox{
+    height: 80vh;
+    width: 55vw;
+    border-radius: 2vw;
+    margin-left: 25vw;
+    margin-top: 5vh;
+    background-color: white;
+    
+}
+
+.question{
+    background-color: antiquewhite;
+    margin-top: 10vh;
+    font-size: 3vw;
+    text-align: center;
+    width: 75vw;
+    text-align: center;
+    position: relative;
+    left: 10vw;
+    
+}
+.options{
+    display: grid;
+    grid-template-columns: repeat(2,30vw);
+    column-gap: 1vw;
+    row-gap: 2vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1vh;
+    
+}
+.individualOption{
+    position: relative;
+    top: 10vh;
+    height: 9vh;
+    width: 25vw;
+    /* box-shadow: 1vh 1vh antiquewhite; */
+    font-size: 2vw;
+    background-color: antiquewhite;
+
+
+}
+
+.individualOption:active{
+    background-color: rgb(108, 201, 108);
+}
+
+.individualOption:hover{
+    border: none;
+    height: 13vh;
+    width: 30vw;
+    font-size: 3vw;
+    background-color: rgb(202, 142, 63);
+}
+
+.highlightbuttons{
+    display: flex;
+    position: relative;
+    left: 35vw;
+    top: 15vh;
+    
+
+    
+
+}
+
+.buttonsIndividual{
+    height: 5vh;
+    width: 10vw;
+    margin-right: 3vw;
+    background-color: antiquewhite;
+}
+
+
